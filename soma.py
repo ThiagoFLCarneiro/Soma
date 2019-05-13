@@ -23,7 +23,7 @@ bt = Button(janela, width=20, text="Soma", command=bt_click)
 bt.place(x=100, y=160)
 
 lb = Label(janela, text="Resultado")
-lb.place(x=100, y=200)
+lb.place(x=100, y=300)
 
 janela.geometry("300x300+1000+200")
 janela.mainloop()
